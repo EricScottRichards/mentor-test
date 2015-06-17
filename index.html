@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="testApp">
+<head>
+	<title>Eric is the Greatest</title>
+</head>
+<body ng-controller="mainCtrl">
+
+The people in that there array are: 
+
+<ul ng-repeat="person in people">
+	<li>{{person.name}} </li>
+</ul>
+
+<div ng-model="ageSum">The sum of these gentlemen's ages is {{ageSum}}.</div>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.js"></script>
+<script src="app.js"></script>
+<script src="mainCtrl.js"></script>
+<script src="mainService.js"></script>
+</body>
+</html>
